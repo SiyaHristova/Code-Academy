@@ -3,8 +3,11 @@
 void obarniBitNa(unsigned int *n, int index);
 
 int main(void) { 
-    unsigned int n = 35;
+    unsigned int n = 111;
+    obarniBitNa(&n, 3);
+    obarniBitNa(&n, 4);
     obarniBitNa(&n, 5);
+    obarniBitNa(&n, 6);
     printf("%d\n", n);
     return 0;
 }
