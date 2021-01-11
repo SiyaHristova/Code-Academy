@@ -8,6 +8,7 @@ int main(void) {
     obarniBitNa(&n, 4);
     obarniBitNa(&n, 5);
     obarniBitNa(&n, 6);
+    obarniBitNa(&n, 7);
     printf("%d\n", n);
     return 0;
 }
