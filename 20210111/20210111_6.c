@@ -1,3 +1,5 @@
+// Променете стойността на бита на дадено число на определена позиция.
+
 #include <stdio.h>
 
 void obarniBitNa(unsigned int *n, int index);
