@@ -1,3 +1,5 @@
+// Създайте функция iz4istiBitna. Тя получава като параметър число и индекс, и прави на нула бита на съответния индекс в числото
+
 #include <stdio.h>
 
 void iz4istiBitna(unsigned int *n, int index);
