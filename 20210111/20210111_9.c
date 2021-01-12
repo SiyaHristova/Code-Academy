@@ -1,3 +1,5 @@
+//  Направете на нула битовете в числа, намиращи се на позиции между 3 и 7
+
 #include <stdio.h>
 
 void obarniBitNa(unsigned int *n, int index);
