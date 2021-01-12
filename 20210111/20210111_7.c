@@ -1,3 +1,5 @@
+// Занулете всички битове на числата, намиращи се на четна позиция
+
 #include <stdio.h>
 
 void obarniBitNa(unsigned int *n, int index);
