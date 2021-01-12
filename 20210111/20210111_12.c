@@ -1,3 +1,5 @@
+// Вдигнете всички битове на число, на позиции делящи се на 3.
+
 #include <stdio.h>
 
 void vdigniBitNa(unsigned int *n, int index);
