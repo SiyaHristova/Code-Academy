@@ -7,8 +7,8 @@ int main(){
     short int a = -127;
     unsigned short int b = 255;
     unsigned int c = 6237498;
-    unsigned int d = 4294967292;
-    signed long long int e = -9000000000000775845;
-    printf("%d\n %d\n %d\n %d\n %d", a,b,c,d,e);
+    unsigned long int d = 4294967292;
+    long long int e = -9000000000000775845;
+    printf("%d\n %d\n %d\n %lld\n %lld", a,b,c,d,e);
     return 0;
 }
