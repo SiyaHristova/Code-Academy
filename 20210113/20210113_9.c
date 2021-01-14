@@ -5,7 +5,7 @@
 
 int main(){
     
-    double a = 4.9876543;
+    float a = 4.9876543;
     printf("%f \n",a);
     long double b = 7.123456789012345678890;
     __mingw_printf("%.25Lf\n",b);
