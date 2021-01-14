@@ -18,6 +18,11 @@ int main()
     printf("c: %llu;    Size of c: %d\n", c, sizeof(c));
     printf("d: %.2f;     Size of d: %d\n", d, sizeof(d));
     printf("e: %.3f;  Size of e: %d\n", e, sizeof(e));
-
-
+// слагам на различно разстояни от Sizeof, за да може при отпечатването да се подредят точно едно под друго
+// a: a;        Size of a: 1
+// b: 102;      Size of b: 4
+// c: 50000;    Size of c: 4
+// d: 6.00;     Size of d: 4
+// e: -48.907;  Size of e: 8
+    return 0;
 }
