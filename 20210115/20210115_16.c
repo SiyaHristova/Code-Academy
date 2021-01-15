@@ -4,9 +4,9 @@
 
 #include <stdio.h> 
 const float Pi = 3.14159;
-float lice(double R);
+float lice(float R);
 int main(){
-    double r = 1;
+    float r = 1;
     lice(r);
     r = 1.5;
     lice(r);
@@ -14,7 +14,7 @@ int main(){
     lice(r);
     return 0;
 }
-float lice(double R){
+float lice(float R){
     float S = Pi * R * R;
     printf("%.2f\n", S);
 }
