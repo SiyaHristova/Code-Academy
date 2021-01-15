@@ -8,6 +8,6 @@ int main() {
     str[2] = 'l';
     str[3] = 'l';
     str[4] = 'o';
-    printf("%c%c%c%c%c%c", str[0], str[1], str[2], str[3], str[4]);
+    printf("%s", str);
     return 0;
 }
