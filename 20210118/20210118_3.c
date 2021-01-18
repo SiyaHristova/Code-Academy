@@ -9,7 +9,7 @@ int main()
     int x = 10;
     int y = 10;
     int true, false;
-    true = (++x + x || y);
+    true = (++x || y);
     printf("%d\n", true);
     return 0;
 }
