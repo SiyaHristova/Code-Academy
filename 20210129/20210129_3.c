@@ -11,7 +11,7 @@ int main(void)
 
     printf("b: ");
     scanf("%d", &b);
-    printf("%d\n", sum(a, b));
+    printf("Rezult: %d\n", sum(a, b));
     return 0;
 }
 
