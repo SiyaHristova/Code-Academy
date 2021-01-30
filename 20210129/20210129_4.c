@@ -14,7 +14,7 @@ int main(void)
 
     printf("c: ");
     scanf("%d", &c);
-    printf("%d\n", sum(a, b, c));
+    printf("Result: %d\n", sum(a, b, c));
     return 0;
 }
 
