@@ -16,8 +16,8 @@ int main(){
     printf("c: ");
     scanf("%d", &c);
 
-    printf("%d\n", add(a, b));
-    printf("%d", incr(c));
+    printf("Sum(a+b): %d\n", add(a, b));
+    printf("c+1 = %d", incr(c));
     
     return  0;
 }
