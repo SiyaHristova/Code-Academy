@@ -1,22 +1,35 @@
-/* Напишете програма на С, която чрез функция да обръща
-десетични числа в двоични.*/
+/*  Напишете програма на С, която чрез функция да обръща
+десетични числа в двоични. */
 
 #include <stdio.h>
 
-int chetno(int a);
+void decimalToBinary(int a);
+
 int main(void)
 {
-    int a = 0;
-    printf("a: ");
+    int a;
+    printf("Enter a number that will be converted to decimal: \n");
     scanf("%d", &a);
-    chetno(a);
+    decimalToBinary(a);
+
     return 0;
 }
 
-int chetno(int a){
-    if(a%2==0)
-        printf("The number is even");
-    else
-        printf("The number is odd");
+void decimalToBinary(int a)
+{
+
+    int s[a];
+    int i = 0;
+    while (a > 0)
+    {
+        s[i] = a % 2;
+        i++;
+        a = a / 2;
+    }
     
+    i = i-1;
+    while (i>=0){
+        printf("%d",s[i]);
+        i--;
+    }
 }
