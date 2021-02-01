@@ -2,8 +2,15 @@
 #include "p.h"
 #include <math.h>
 
-int min(unsigned int a, unsigned int b)
+int min()
 {
+    unsigned int a = 0;
+    unsigned int b = 0;
+    printf("A for LCM: ");
+    scanf("%d", &a);
+
+    printf("B for LCM: ");
+    scanf("%d", &b);
     int max = 0;
 
     max = (a > b) ? a : b;
