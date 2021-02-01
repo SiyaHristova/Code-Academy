@@ -17,13 +17,13 @@
 int main()
 {
     float a = 0, b = 0;
-    printf("a: ");
+    printf("a for fabs and sqrt: ");
     scanf("%f", &a);
 
-    printf("b: ");
+    printf("b for fabs and sqrt: ");
     scanf("%f", &b);
 
-    min(a, b);
+    min();
     fabsCopy(a, b);
     printf("\nSqrt a: %.2f", sqrtCopy(a));
     printf("\nSqrt b: %.2f", sqrtCopy(b));
