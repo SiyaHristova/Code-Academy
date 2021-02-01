@@ -2,7 +2,7 @@
 #include "p.h"
 #include <math.h>
 
-int min(int a, int b)
+int min(unsigned int a, unsigned int b)
 {
     int max = 0;
 
