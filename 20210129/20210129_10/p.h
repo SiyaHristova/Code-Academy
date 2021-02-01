@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-int min(int a, int b);
+int min();
 float fabsCopy(float a, float b);
 float sqrtCopy(float a);
