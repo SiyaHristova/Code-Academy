@@ -8,6 +8,7 @@ void Faktorial();
 int main()
 {
     Faktorial();
+    return 0;
 }
 void Faktorial()
 {

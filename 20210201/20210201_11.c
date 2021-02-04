@@ -10,6 +10,7 @@ int main(){
     squeeze(s,c);
 
     printf("%s",s);
+    return 0;
 
 }
 void squeeze(char s1[], int c){
