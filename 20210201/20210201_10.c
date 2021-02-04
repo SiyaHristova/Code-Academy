@@ -9,14 +9,9 @@ void itob(int n, char s[], int b);
 
 int main(void){
 
-    int n = 0,b = 2;
+    unsigned int n = 0, b = 2;
     printf("Enter a whole number: \n");
     scanf("%d",&n);
-
-    while(n<0){
-        printf("Enter a number that is positive (greater than 0): \n");
-        scanf("%d",&n);
-    }
 
     char s[n];
 
