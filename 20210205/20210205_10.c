@@ -6,22 +6,19 @@
 
 void mystrncpy(char *s, char *t, int n)
 {
-    while(*t && n-- > 0)
-        *s++ = *t++;
-
-    int extra = strlen(s) - n;
-
-    while (extra-- > 0) {
-        *s++;
+    int i = 0, j = 0;
+    for(i;s[i] != '\0';i++){
     }
-
-    *s = '\0';
+    for (j;j<n;j++,i++){
+        s[i] = t[j];
+    }
+    s[i] = '\0';
+    printf("%s",s);
 }
 int main(){
     char s[] = "ABCDEF";
     char t[] = "GHIJ";
 
-    mystrncpy(s, t, 4);
-    printf("%s\n", s);
+    mystrncpy(s, t, 1);
     return 0;
 }
