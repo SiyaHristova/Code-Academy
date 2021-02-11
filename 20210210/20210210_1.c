@@ -13,7 +13,7 @@ int sumNum(int *iArr){
         if(i % 2 != 0)
         { 
             sum = sum + *(p+i);
-        
+
         }
     }
     return sum+iArr[0];
