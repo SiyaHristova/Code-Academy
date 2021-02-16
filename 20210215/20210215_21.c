@@ -4,21 +4,47 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+void sort(char*);
 
-int cmpfunc( const void *a, const void *b) {
-  return *(char*)a - *(char*)b;
+int main()
+{
+   char string[100];
+
+   printf("Enter some text\n");
+   gets(string);
+
+   sort(string);
+   printf("%s\n", string);
+
+   return 0;
 }
 
-void sorting( char str[] ) {
-  qsort(str, (size_t) strlen(str), (size_t) sizeof(char), cmpfunc);
-  printf("%s\n", str);
-}
+void sort(char *s)
+{
+   int c, i = 0, len;
+   char *pointer, *result, ch;
 
+   len = strlen(s);
 
-int main() {
-  char str1[] = "edcba";
+   result = (char*)malloc(len+1);
 
-  sorting(str1);
+   pointer = s;
 
-  return 0;
+   for ( ch = 'a' ; ch <= 'z' ; ch++ )
+   {
+      for ( c = 0 ; c < len ; c++ )
+      {
+         if ( *pointer == ch )
+         {
+            *(result+i) = *pointer;
+            i++;
+         }
+         pointer++;
+      }
+      pointer = s;
+   }
+   *(result + i) = '\0';
+
+   strcpy(s, result);
+   free(result);
 }
