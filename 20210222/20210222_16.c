@@ -42,7 +42,7 @@ int main(void)
 {
 
     struct variables var[20];
-    if (readFromFile(var, "structs20.cvs") == 0)
+    if (readFromFile(var, "structs.cvs") == 0)
     {
         printf("Successfully read from file\n");
     }
