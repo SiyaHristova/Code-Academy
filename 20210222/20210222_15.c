@@ -60,7 +60,7 @@ int main(void)
                                 [17] = {18, "TEXT", 15.8, eighteen}, 
                                 [18] = {19, "TEXT", 5.9, nineteen}, 
                                 [19] = {20, "End", 99.75, twenty}};
-    if (writeToFile(var, "structs20.cvs") == 0)
+    if (writeToFile(var, "structs.cvs") == 0)
     {
         printf("Successfully writen to file\n");
     }
