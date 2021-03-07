@@ -38,7 +38,7 @@ void printRes()
     list->smallBrackets = 0;
     list->screw = 0;
 
-    while (list->longWoodenBoards <= 4 || list->shortWoodenBoards <= 6 || list->bigBrackets <= 2 || list->smallBrackets <= 12 || list->screw <= 14)
+    while (list->longWoodenBoards < 4 || list->shortWoodenBoards < 6 || list->bigBrackets < 2 || list->smallBrackets < 12 || list->screw < 14)
     {
         enterNum(list);
         if (list->longWoodenBoards >= 4 && list->shortWoodenBoards >= 6 && list->bigBrackets >= 2 && list->smallBrackets >= 12 && list->screw >= 14)
@@ -47,7 +47,7 @@ void printRes()
         }
         else
         {
-            printf("\nInvalid numbers!\n");
+            printf("\nInvalid numbers!");
         }
     }
     free(list);
@@ -55,7 +55,7 @@ void printRes()
 
 int enterNum(Material *list)
 {
-    printf("Please enter how many long wooden boards you have: ");
+    printf("\nPlease enter how many long wooden boards you have: ");
     scanf("%d", &list->longWoodenBoards);
 
     printf("Please enter how many short wooden boards you have: ");
