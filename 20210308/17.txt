@@ -1,2 +1,1 @@
-ID: 3	Name: ana	FamilyName: anev	Age: 9
-ID: 1	Name: beta	FamilyName: beton	Age: 9
+
