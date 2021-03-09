@@ -35,9 +35,9 @@ int main()
     }
     fclose(fp);
     fclose(fp1);
-    remove("original.txt");
     fp = NULL;
 
+    remove("original.txt");
     fp1 = fopen("copy.txt", "r");
     rename("copy.txt", "original.txt");
     if (fp1 == NULL)
