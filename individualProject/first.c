@@ -17,12 +17,23 @@ int main()
     for (i = 0; i < m; i++)
     {
         for (j = 0; j < n; j++)
+        {
+            if (firstWord[i] >= 97 && firstWord[i] <= 122)
+            {
+                firstWord[i] = firstWord[i] - 32;
+            }
+            if (secondWord[j] >= 97 && secondWord[j] <= 122)
+            {
+                secondWord[j] = secondWord[j] - 32;
+            }
+
             if (firstWord[i] == secondWord[j])
                 if ((x == -1) && (y == -1))
                 {
                     x = i;
                     y = j;
                 }
+        }
     }
     if (x != -1)
     {
