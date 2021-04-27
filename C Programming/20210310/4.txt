@@ -1,0 +1,6 @@
+{
+1.Price: 0.47
+Separately price: 0.47
+Together price: 0.47
+It`s better to send separately. The price is 0.47
+arrayFiller() success

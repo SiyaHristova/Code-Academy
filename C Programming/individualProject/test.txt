@@ -1,0 +1,30 @@
+First word: MONITOR
+Second word: KLAVIATURA
+   K
+   L
+   A
+   V
+MONITOR
+   A
+   T
+   U
+   R
+   A
+First word: KOTKA
+Second word: PILE
+KOTKA
+     P
+     I
+     L
+     EFirst word: KOSA
+Second word: KOZA
+KOSA
+O
+Z
+A
+First word: KOSA
+Second word: KOZA
+KOSA
+O
+Z
+A
