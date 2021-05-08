@@ -1,5 +1,5 @@
-cd ~
-mkdir projects
-cd projects
-touch house{1..9}
-ls house*
+cd ~                                   // влиза в HOME директорията 
+mkdir projects                         // създава директорията projects в HOME
+cd projects                            // влиза в projects
+touch house{1..9}                      // създава девет файла house1, house2... house9
+ls house*                              // показва файловете започващи с house
