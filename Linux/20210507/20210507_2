@@ -1,3 +1,9 @@
+/* Make the $HOME/projects/houses/doors/ directory path. Create the following empty fi les within this directory path (try using absolute and relative paths from your home directory):
+$HOME/projects/houses/bungalow.txt
+$HOME/projects/houses/doors/bifold.txt
+$HOME/projects/outdoors/vegetation/landscape.txt    */
+
+
 mkdir -p $HOME/projects/houses/doors                      // създава двете директории houses и doors
 touch $HOME/projects/houses/bungalow.txt                  // създава празен файл bungalow.txt в директорията houses (абсолютен път)
 touch $HOME/projects/houses/doors/bifold.txt              // създава празен файл bifold.txt в директорията doors    (абсолютен път)
