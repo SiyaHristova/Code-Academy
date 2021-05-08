@@ -1,0 +1,15 @@
+mkdir -p $HOME/projects/houses/doors                      // създава двете директории houses и doors
+touch $HOME/projects/houses/bungalow.txt                  // създава празен файл bungalow.txt в директорията houses (абсолютен път)
+touch $HOME/projects/houses/doors/bifold.txt              // създава празен файл bifold.txt в директорията doors    (абсолютен път)
+mkdir -p $HOME/projects/outdoors/vegetation               // създава двете директории outdoors и vegetation
+touch $HOME/projects/outdoors/vegetation/landscape.txt    // създваа празен файл landscape.txt в директорията vegetation (абсолютен път)
+
+
+
+cd ~/projects/houses                                      // влиза в папката houses
+touch bungalow.txt                                        // създава файла bundalow.txt                             (относителен път)
+cd doors                                                  // влиза в директорията doors
+touch bifold.txt                                          // създава празен файл bifold.txt в директорията doors    (относителен път)
+mkdir -p $HOME/projects/outdoors/vegetation               // създава двете директории outdoors и vegetation
+cd ~/projects/outdoors/vegetation                         // влиза в директорията vegetation
+touch landscape.txt                                       // създваа празен файл landscape.txt в директорията vegetation (относителен път)
