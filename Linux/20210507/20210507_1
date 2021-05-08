@@ -1,0 +1,5 @@
+cd ~
+mkdir projects
+cd projects
+touch house{1..9}
+ls house*
