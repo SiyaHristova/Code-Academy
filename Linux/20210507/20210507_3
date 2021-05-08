@@ -1,1 +1,3 @@
+// Copy the files house1 and house5 to the $HOME/projects/houses/ directory.
+
 cp ~/projects/house[15] ~/projects/houses            // копира двата файла house1 и house2 от директорията projects в директорията houses
