@@ -1,0 +1,8 @@
+$ cat >> tomp.sh
+#!/bin/bash
+for i in $@
+do 
+    touch $i
+done
+$ chmod +x tomp.sh
+$ ./tomp.sh hello.txt code.txt academy.txt linux.txt
