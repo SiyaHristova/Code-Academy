@@ -1,3 +1,0 @@
-D:/CodeAcademy/StrypesProjects/CS/build/CMakeFiles/counter_strike.dir
-D:/CodeAcademy/StrypesProjects/CS/build/CMakeFiles/edit_cache.dir
-D:/CodeAcademy/StrypesProjects/CS/build/CMakeFiles/rebuild_cache.dir
