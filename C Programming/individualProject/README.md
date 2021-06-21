@@ -9,7 +9,9 @@
     М
     О
     N
+    
 KLAVIATURA
+
     Т
     О
     R
@@ -18,6 +20,7 @@ KLAVIATURA
 Вид на изхода: 
 
 КОТКА
+
      Р
      I   
      L
