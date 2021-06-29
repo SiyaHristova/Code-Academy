@@ -1,0 +1,1 @@
+$ history | sort -k 2 | sed 's/^ *[0-9]\ *//' | uniq -c | sort -n | less
