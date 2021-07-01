@@ -34,9 +34,16 @@ int main(int argc, char *argv[]){
         exit(3);
     }
 
+    fseek(fp, 0L, SEEK_END);
+    long sizeFile = ftell(fp);
+
     fseek(fp,7,SEEK_SET);
     long fpos = ftell(fp);
-    printf("Size of file is: %ld bytes\n",fpos);
+    printf("Size of file is: %ld bytes\n",sizeFile);
+    if(sizeFile < fpos){
+        printf("Not enough memory\n");
+        exit(4);
+    }
     printf("Position : %ld\n",fpos);
 
     return 0;
